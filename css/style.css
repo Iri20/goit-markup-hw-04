@@ -270,6 +270,10 @@ h3 {
   justify-content: center;
   gap: 24px;
 }
+.member {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
 .section-team {
   background: #f4f4fd;
   margin-top: 120px;
@@ -364,6 +368,13 @@ h3 {
   margin-top: 48px;
   margin-bottom: 120px;
 }
+.card1 li:hover,
+.card2 li:hover,
+.card3 li:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+  0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
 a {
   text-decoration: none;
 }
@@ -455,15 +466,6 @@ ul {
 .logo6:hover {
   background-color: #4d5ae5;
 }
-.footer-icons {
-  box-sizing: border-box;
-  width: 208px;
-  height: 80;
-}
-.social-icons .icon svg{
-  width: 16px;
-  height: 16px;
-}
 .social-media {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -472,7 +474,7 @@ ul {
   letter-spacing: 0.02em;
   color: #fff;
 }
-.social-icons .icon{
+.social-icons .icon {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -482,8 +484,24 @@ ul {
   align-items: center;
   color: #f4f4fd;
 }
+
 .social-media {
-  display: flex;
+  margin-top: -115px;
+  margin-left: 500px;
 }
-
-
+.footer-icons .icon svg{
+  width: 16px;
+  height: 16px;
+}
+.social-icons {
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 16px;
+margin-top: 24px;
+margin-right: 240px;
+}
+.social-icons .icon:hover,
+.social-icons .icon:active {
+  background-color: #404bbf;
+}
