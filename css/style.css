@@ -103,7 +103,7 @@ h3 {
   border-radius: 4px;
   margin-top: 48px;
 }
-.hero button-service {
+.hero .button-service {
   position: relative;
   z-index: 2;
   font-size: 16px;
@@ -336,17 +336,19 @@ h3 {
   height: 312px;
 }
 .footer-container {
-  padding-top: 102px;
-  padding-left: 156px;
-  padding-right: 1020px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 100px;
+  width: 1200px;
+  
 }
 .footer-paragraph {
   color: #f4f4fd;
-  padding-top: 16px;
   box-sizing: content-box;
   width: 264px;
   height: 72px;
-
+  margin-top: 16px;
+  margin-right: 156px;
 }
 .cards ul {
   display: flex;
@@ -492,6 +494,9 @@ ul {
   letter-spacing: 0.02em;
   color: #fff;
 }
+.social-media {
+
+}
 .social-icons .icon {
   width: 40px;
   height: 40px;
@@ -502,29 +507,26 @@ ul {
   align-items: center;
   color: #f4f4fd;
 }
-.footer-icons .icon svg{
+.icon svg{
   width: 16px;
   height: 16px;
-}
-.footer-social {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
 }
 .social-icons {
   box-sizing: border-box;
   width: 208px;
   height: 80;
   color: var(--accent-color-cloud);
-
+}
+.social-footer {
+  display: flex;
+  justify-content: space-between;
 }
 .social-icons {
 display: flex;
 justify-content: center;
 text-align: center;
 gap: 16px;
-margin-top: 24px;
-margin-right: 240px;
+margin-left: 540px;
 }
 .social-icons .icon:hover,
 .social-icons .icon:active {
