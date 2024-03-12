@@ -126,6 +126,7 @@ h3 {
 }
 .button-bar {
   margin-top: 150px;
+  margin-left: 150px;
   flex-direction: column;
 }
 .button-bar ul {
@@ -258,6 +259,9 @@ h3 {
   gap: 59px;
   margin-top: 72px;
 }
+.container-doing {
+  margin-bottom: 320px;
+}
 .team {
   background-color: #f4f4fd;
   display: flex;
@@ -339,11 +343,19 @@ h3 {
 .footer-paragraph {
   color: #f4f4fd;
   padding-top: 16px;
+  box-sizing: content-box;
+  width: 264px;
+  height: 72px;
+
 }
 .cards ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
+.cards {
+    margin-left: 120px;
+    width: 1128px;
 }
 .cards li {
   margin-right:  24px;
@@ -432,6 +444,7 @@ ul {
   text-align: center;
   color: #2e2f42;
   margin-top: 120px;
+  margin-left: 200px;
 }
 .logo-icons {
   width: 1200px;
@@ -441,6 +454,11 @@ ul {
   justify-content: center;
   margin-top: 72px;
   margin-bottom: 120px;
+}
+.logo-svg {
+    margin-left: 90px;
+    width: 1128px;
+    height: 88px;
 }
 .logo1,
 .logo2,
@@ -484,14 +502,21 @@ ul {
   align-items: center;
   color: #f4f4fd;
 }
-
-.social-media {
-  margin-top: -115px;
-  margin-left: 500px;
-}
 .footer-icons .icon svg{
   width: 16px;
   height: 16px;
+}
+.footer-social {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.social-icons {
+  box-sizing: border-box;
+  width: 208px;
+  height: 80;
+  color: var(--accent-color-cloud);
+
 }
 .social-icons {
 display: flex;
