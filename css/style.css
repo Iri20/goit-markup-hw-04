@@ -483,7 +483,7 @@ ul {
 .logo6:hover {
   background-color: #4d5ae5;
 }
-.social-media {
+.icons-social h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -494,7 +494,24 @@ ul {
 .social-media {
   margin-top: 100px;
 }
-.social-icons .icon {
+.social-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.icons-social {
+  display: flex;
+  gap: 24px;
+  margin-top: 100px;
+  margin-right: 500px;
+}
+.icon {
+  margin-top: 40px;
+}
+.icons-social .icon svg{
+  width: 16px;
+  height: 16px;
+}
+.icons-social .icon {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
@@ -504,25 +521,8 @@ ul {
   align-items: center;
   color: #f4f4fd;
 }
-.icon svg{
-  width: 16px;
-  height: 16px;
-}
-.social-icons {
-  width: 208px;
-  height: 80;
-  margin-top: 140px;
-}
-.social-footer {
-  display: flex;
-  justify-content: space-between;
-}
-.social-icons {
-  display: flex;
-  gap: 16px;
-  margin-left: 540px;
-}
-.social-icons .icon:hover,
-.social-icons .icon:active {
+.icons-social .icon:hover,
+.icons-social .icon:active {
   background-color: #404bbf;
 }
+
