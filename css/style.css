@@ -354,7 +354,7 @@ h3 {
   flex-wrap: wrap;
 }
 .cards {
-    margin-left: 120px;
+  margin: 0 auto;
     width: 1128px;
 }
 .cards li {
@@ -363,6 +363,7 @@ h3 {
 .card1 {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
   width: 1200px;
   height: 420px;
   margin-top: 72px;
